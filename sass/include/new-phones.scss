@@ -1,0 +1,8 @@
+#new-phones{
+    .owl-carousel .item .product .text-center{
+        white-space: nowrap; 
+        width: 200px; 
+        overflow: hidden;
+        text-overflow: clip; 
+    }
+}

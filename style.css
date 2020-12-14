@@ -103,5 +103,18 @@ button, button:focus {
   margin-right: 1.2rem;
   margin-left: 1rem;
 }
+#special-price .grid .grid-item .item .product .text-center {
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+#new-phones .owl-carousel .item .product .text-center {
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: clip;
+}
 
 /*# sourceMappingURL=style.css.map */
