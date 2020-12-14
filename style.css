@@ -70,6 +70,12 @@ button, button:focus {
 #top-sale .owl-carousel .item .product img:hover {
   transform: scale(1.1);
 }
+#top-sale .owl-carousel .item .product .text-center {
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: clip;
+}
 #top-sale .owl-carousel .owl-nav button {
   position: absolute;
   top: 30%;

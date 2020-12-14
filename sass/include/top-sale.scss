@@ -10,6 +10,13 @@
     .owl-carousel .item .product img:hover{
         transform: scale(1.1);
     }
+    .owl-carousel .item .product .text-center{
+        white-space: nowrap; 
+        width: 200px; 
+        overflow: hidden;
+        text-overflow: clip; 
+
+    }
     .owl-carousel .owl-nav button{
         position: absolute;
         top: 30%;
