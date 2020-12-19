@@ -38,10 +38,10 @@
                     <div class="grid-item Apple border">
                         <div class="item py-2" style="width:200px;">
                             <div class="product font-rale">
-                                <a href="#"><img src="./assets/products/14.png" alt="product1" class="img-fluid"></a>
+                                <a href="#"><img src="./assets/products/16.png" alt="product1" class="img-fluid"></a>
                                 <div class="text-center">
                                     <h6>
-                                        Apple Iphone 11
+                                        iPhone 12 Pro Max
                                     </h6>
                                     <div class="rating text-warning font-size-12">
                                         <span><i class="fas fa-star"></i></span>
@@ -51,7 +51,7 @@
                                         <span><i class="far fa-star"></i></span>
                                     </div>
                                     <div class="price py-2">
-                                        <span>16.690.000 VND</span>
+                                        <span>40.990.000 VND</span>
                                     </div>
                                     <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
                                 </div>
