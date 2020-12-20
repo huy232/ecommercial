@@ -44,7 +44,7 @@ CREATE TABLE `product` (
   `item_id` int(11) NOT NULL,
   `item_brand` varchar(200) NOT NULL,
   `item_name` varchar(255) NOT NULL,
-  `item_price` double(10,2) NOT NULL,
+  `item_price` decimal NOT NULL,
   `item_image` varchar(255) NOT NULL,
   `item_register` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -54,20 +54,20 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`item_id`, `item_brand`, `item_name`, `item_price`, `item_image`, `item_register`) VALUES
-(1, 'Samsung', 'Samsung Galaxy Note 20 Ultra', 24990000.00, './assets/products/1.png', '2020-12-17 21:52:00'), -- NOW()
-(2, 'Redmi', 'Xiaomi Redmi Note 9 Pro', 5990000.00, './assets/products/2.png', '2020-12-17 21:52:00'),
-(3, 'Redmi', 'Xiaomi POCO X3 NFC', 5990000.00, './assets/products/3.png', '2020-12-17 21:52:00'),
-(4, 'Apple', 'Apple iPhone 12', 24990000.00, './assets/products/4.png', '2020-12-17 21:52:00'),
-(5, 'Apple', 'Apple iPhone 11', 16690000.00, './assets/products/5.png', '2020-12-17 21:52:00'),
-(6, 'Apple', 'Apple iPhone SE', 10690000.00, './assets/products/6.png', '2020-12-17 21:52:00'),
-(7, 'Samsung', 'Samsung Galaxy Note 10+', 16490000.00, './assets/products/7.png', '2020-12-17 21:52:00'),
-(8, 'Redmi', 'Xiaomi Redmi 9C', 2790000.00, './assets/products/8.png', '2020-12-17 21:52:00'),
-(9, 'Redmi', 'Xiaomi Redmi 9', 3150000.00, './assets/products/10.png', '2020-12-17 21:52:00'),
-(10, 'Samsung', 'Samsung Galaxy 10', 11490000.00, './assets/products/11.png', '2020-12-17 21:52:00'),
-(11, 'Samsung', 'Samsung Galaxy S8', 3990000.00, './assets/products/12.png', '2020-12-17 21:52:00'),
-(12, 'Apple', 'Apple iPhone 12 mini', 25990000.00, './assets/products/13.png', '2020-12-17 21:52:00'),
-(13, 'Apple', 'iPhone 12 Pro Max', 40990000.00, './assets/products/16.png', '2020-12-17 21:52:00'),
-(14, 'Apple', 'Apple Iphone 10', 9790000.00, './assets/products/15.png', '2020-12-17 21:52:00');
+(1, 'Samsung', 'Samsung Galaxy Note 20 Ultra', 24990000, './assets/products/1.png', '2020-12-17 21:52:00'), -- NOW()
+(2, 'Redmi', 'Xiaomi Redmi Note 9 Pro', 5990000, './assets/products/2.png', '2020-12-17 21:52:00'),
+(3, 'Redmi', 'Xiaomi POCO X3 NFC', 5990000, './assets/products/3.png', '2020-12-17 21:52:00'),
+(4, 'Apple', 'iPhone 12', 24990000, './assets/products/4.png', '2020-12-17 21:52:00'),
+(5, 'Apple', 'iPhone 11', 16690000, './assets/products/5.png', '2020-12-17 21:52:00'),
+(6, 'Apple', 'iPhone SE', 10690000, './assets/products/6.png', '2020-12-17 21:52:00'),
+(7, 'Samsung', 'Samsung Galaxy Note 10+', 16490000, './assets/products/7.png', '2020-12-17 21:52:00'),
+(8, 'Redmi', 'Xiaomi Redmi 9C', 2790000, './assets/products/8.png', '2020-12-17 21:52:00'),
+(9, 'Redmi', 'Xiaomi Redmi 9', 3150000, './assets/products/10.png', '2020-12-17 21:52:00'),
+(10, 'Samsung', 'Samsung Galaxy 10', 11490000, './assets/products/11.png', '2020-12-17 21:52:00'),
+(11, 'Samsung', 'Samsung Galaxy S8', 3990000, './assets/products/12.png', '2020-12-17 21:52:00'),
+(12, 'Apple', 'iPhone 12 mini', 25990000, './assets/products/13.png', '2020-12-17 21:52:00'),
+(13, 'Apple', 'iPhone 12 Pro Max', 40990000, './assets/products/16.png', '2020-12-17 21:52:00'),
+(14, 'Apple', 'iPhone 10', 9790000, './assets/products/15.png', '2020-12-17 21:52:00');
 
 -- --------------------------------------------------------
 
