@@ -6,19 +6,18 @@
 
 <?php
 
-  /* include shopping cart section*/
-  include('Template/_cart-template.php');
-  /* include shopping cart section*/
+    /*  include cart items if it is not empty */
+        count($product->getData('cart')) ? include ('Template/_cart-template.php') :  include ('Template/notFound/_cart_notFound.php');
+    /*  include cart items if it is not empty */
 
-  /* include shopping cart section*/
-  include('Template/_wishlist_template.php');
-  /* include shopping cart section*/
+        /*  include top sale section */
+        count($product->getData('wishlist')) ? include ('Template/_wishlist_template.php') :  include ('Template/notFound/_wishlist_notFound.php');
+        /*  include top sale section */
 
-  /* include new phones */
-  include('Template/_new-phones.php');
-  /* include new phones */
 
-  
+    /*  include top sale section */
+        include ('Template/_new-phones.php');
+    /*  include top sale section */
 ?>
 
 <?php
